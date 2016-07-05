@@ -14,7 +14,7 @@ public class Controller  {
     
     public void input()  {
         try {
-        File file = new File("merda.txt");
+        File file = new File("timer.txt");
         FileWriter pw = new FileWriter(file);
         
         System.out.println("Tempo Inicial: ");
